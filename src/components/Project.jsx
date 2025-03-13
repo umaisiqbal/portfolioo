@@ -1,5 +1,4 @@
 import React from "react";
-
 const Project = ({ properties }) => {
   return (
     <div href="" className="project">
@@ -7,7 +6,6 @@ const Project = ({ properties }) => {
       <div>
         <h5 className="projectTitle">
           {properties.companyName && <span>{properties.companyName}</span>}
-
           {properties.name && (
             <>
               <a href={properties.link} target="_blank">
